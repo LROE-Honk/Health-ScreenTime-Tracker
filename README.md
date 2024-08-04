@@ -43,9 +43,16 @@ git clone https://github.com/LROE-Honk/Health-ScreenTime-Tracker.git
 go get && go run main.gO
 ```
 
-## RUN
+## RUN GO-FACE 
+El comando ejecutara el archivo main.go el cual unicamente realizara el reconocimiento facial de el directorio images
 ``` bash
 go run main.go
+```
+## RUN setup.sh & pmcam.sh
+pmcam.sh es un script para tomar fotos de tu webcam y las enviara al directorio images, mientras que setup.sh ejecutara el main.go para realizar el reconocimiento facial de dichas imagenes, asi como tambien llevara acabo el conteo de los segundos que el usuario reconocido ha estado mirando la pantalla
+```bash
+bash ~/go/myfaceapp/setup.sh
+bash ~/go/myfaceapp/testdata/pmcam.sh
 ```
 
 ### github.com/Kagami/go-face:
