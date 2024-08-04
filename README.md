@@ -18,8 +18,8 @@
 libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg-turbo8-dev
 
 ## INSTRUCCIONES DE INSTALACION
-## Dependencias
-### PARA Ubuntu (24.04 LTS)
+## DEPENDENCIAS
+### PARA UBUNTU (24.04 LTS)
 con apt
 ``` bash
 sudo apt-get install libdlib-dev libblas-dev libatlas-base-dev liblapack-dev libjpeg-turbo8-dev
