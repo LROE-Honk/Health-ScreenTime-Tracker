@@ -38,7 +38,7 @@ rm ~/go/myfaceapp/testdata/*
 rm ~/go/myfaceapp/*
 mkdir tempFiles
 cd tempFiles
-git clone "este_repo"
+git clone https://github.com/LROE-Honk/Health-ScreenTime-Tracker.git
 --- pendiente
 go get && go run main.gO
 ```
